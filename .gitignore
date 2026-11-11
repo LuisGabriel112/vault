@@ -1,0 +1,10 @@
+# Estado local de Obsidian (cambia en cada máquina y genera conflictos)
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+.DS_Store
+Thumbs.db
+
+# Nunca versionar secretos
+*.env
+.env*

@@ -21,7 +21,13 @@ Rediseño de MEDIPORT. Alcance y decisiones de arquitectura definidos 2026-10-16
 Qué funciona, qué está a medias. Claude Code actualiza esta sección al cerrar sesión.
 
 ## Pendientes
-- [ ] 
+- [ ] Rediseñar apartado "API Carga"
+- [ ] Rediseñar apartado "API Servicios"
+- [ ] Rediseñar apartado "Aduana"
+- [ ] Rediseñar apartado "Capitanía"
+- [ ] Rediseñar apartado "Migración"
+- [ ] Rediseñar apartado "Sanidad"
+- [ ] Rediseñar apartado "Empresa"
 
 ## Decisiones
 - [[2026-10-16-mediport-stack-web-forms-nativo]]

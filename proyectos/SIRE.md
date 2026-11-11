@@ -1,6 +1,6 @@
----
+﻿---
 tipo: proyecto
-estado: activo   # activo | pausado | terminado | descartado
+estado: terminado   # activo | pausado | terminado | descartado
 repo: 
 stack: 
 actualizado: 2026-11-11
@@ -9,7 +9,7 @@ actualizado: 2026-11-11
 # SIRE
 
 ## Objetivo
-Proyecto del trabajo. Rediseño completo del frontend.
+Proyecto del trabajo. RediseÃ±o completo del frontend.
 
 ## Stack y arquitectura
 - Frontend:
@@ -18,17 +18,17 @@ Proyecto del trabajo. Rediseño completo del frontend.
 - Infra / deploy:
 
 ## Estado actual
-Qué funciona, qué está a medias. Claude Code actualiza esta sección al cerrar sesión.
+QuÃ© funciona, quÃ© estÃ¡ a medias. Claude Code actualiza esta secciÃ³n al cerrar sesiÃ³n.
 
 ## Pendientes
 - [ ] 
 
 ## Decisiones
-Enlaces a [[decisiones]] relevantes, una por línea.
+Enlaces a [[decisiones]] relevantes, una por lÃ­nea.
 
-## Diseño
+## DiseÃ±o
 - Design system: [[design-system-SIRE]]
 - Wireframes: ![[]]
 
-## Notas / bitácora
+## Notas / bitÃ¡cora
 - 2026-11-11: 

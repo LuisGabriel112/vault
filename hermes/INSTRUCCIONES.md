@@ -61,3 +61,12 @@ Si la herramienta de delegación no te da pasos intermedios, manda un aviso
 de "sigo trabajando, llevo X min" cada ~5 minutos al bot de stats. El chat
 principal es solo para preguntas que necesitan respuesta tuya y el reporte
 final.
+
+## Reportes con imagen
+Si el reporte de estatus debe incluir una gráfica (barra de progreso como
+imagen, no texto), NO la generes tú. Delégale a /codex la tarea completa:
+"genera una imagen con la barra de progreso de <tarea> al <porcentaje>% y
+mándala al bot de stats con sendPhoto usando STATS_BOT_TOKEN y
+STATS_CHAT_ID". Espera su confirmación de que se envió antes de darla por
+hecha. Si /codex tarda o falla, cae de vuelta al formato de texto en
+monospace de la sección anterior — no dejes el reporte sin mandar.

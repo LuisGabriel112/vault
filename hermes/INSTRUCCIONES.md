@@ -47,3 +47,17 @@ no un fix de una línea):
    Telegram el porcentaje restante y espera mi confirmación antes de proceder.
 3. Si no tienes forma de consultar el uso, asume que debes preguntar antes de cualquier
    tarea que tome más de ~10 minutos de ejecución.
+
+## Progreso visible en tareas largas
+Para cualquier tarea delegada a /claude_code o /codex que tome m�s de 3-4
+minutos, manda un update corto al bot de stats (no al chat principal) cada
+vez que termine un paso identificable, usando este curl desde tu propio
+entorno:
+
+curl -s -X POST "https://api.telegram.org/bot\$STATS_BOT_TOKEN/sendMessage" \`
+  -d chat_id="\$STATS_CHAT_ID" -d text="Paso 2/4: ajustando contrato de /auth/me"
+
+Si la herramienta de delegaci�n no te da pasos intermedios, manda un aviso
+de "sigo trabajando, llevo X min" cada ~5 minutos al bot de stats. El chat
+principal es solo para preguntas que necesitan respuesta tuya y el reporte
+final.
